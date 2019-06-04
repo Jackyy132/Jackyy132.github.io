@@ -1,0 +1,86 @@
+html{
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+
+.NavigationBar {
+  overflow: hidden;
+  background: rgba(0,0,0,0.4);
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+.NavigationBar a{
+	float: left;
+	text-align: center; 
+	width: 15%;
+	height: 4%;
+	padding: 15px;
+	color: white;
+	transition: transform .3s;
+}
+
+.NavigationBar a:hover {
+  background-color: #21d2ff;
+  color: #fff600;
+  transform: scale(1.2);
+}
+
+.box{
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	margin-top: 2%;
+	background: rgba(0,0,0,0);
+	color: #c300ff;
+	
+}
+
+.box-img{
+	width: 370px;
+	height: 300px;
+	border-radius: 20%;
+}
+
+.box h1{
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+
+.box h5{
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+
+.box ul{
+	margin: 0;
+	padding: 0;
+}
+
+.box li{
+	display: inline-block;
+	list-style: none;
+	margin: 6px;
+
+}
+
+.box li a{
+	text-decoration: none;
+	font-size: 60px;
+}
+
+
+.cv{
+	color:white;
+	padding: 35px;
+}
+
+.PersonalDetails{
+	text-align: center;
+}
+
+.footer{
+	text-align: center;
+}
+
